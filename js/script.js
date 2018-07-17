@@ -63,7 +63,7 @@ $(function () {
         var div = $("<div class='qdiv" + i + "'>")
         $(div).append('<h3>$QNB. ' + questions["q" + i] + '</h3>');
         $(div).append('<div id="q' + i + '" class="slider"><div id="q' + i + 'handle" class="ui-slider-handle handle"></div></div>');
-        $(div).append('<div class="button disabled" id="buttonq' + i + '">Potvrdit</div>');
+        $(div).append('<div class="button" id="buttonq' + i + '">Potvrdit</div>');
         $(div).append('<div id="chartq' + i + '" style="width: 100%; margin: 0 auto"></div>');
         $(div).append('<div class="result hiddenresult" id="resq' + i + '"></div>');
         divs.push(div);
@@ -89,13 +89,11 @@ $(function () {
             },
             slide: function slide(event, ui) {
                 $(this).children().text(ui.value + " %");
-                $(this).next().removeClass("disabled");
             }
         });
     }
 
     $(".button").click(function () {
-        if (!$(this).hasClass("disabled")) {
 
             var qid = $(this).prev().attr('id');
             var val = $("#" + qid + "handle").text().slice(0,-2);
@@ -190,6 +188,5 @@ $(function () {
                     $("#res" + qid).html("Váš tip byl <b>" + val + pct + "</b>. Čtenáři v průměru tipují <b>" + Math.round(avg) + pct + "</b>.");
                 }
             });
-        }
     });
 });
