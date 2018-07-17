@@ -1,5 +1,5 @@
 title: "Asi, pravděpodobně, možná. Co tato slova znamenají pro politiky a co pro vás?"
-perex: "„<i>Asi</i> bude pršet.“ „Večer přijdu, ale <i>nejspíš</i> jen na jedno.“ Každý z nás používá k vyjádření pravděpodobnosti slova, jejichž význam je jen pocitový - a tak si je každý může vyložit po svém. Někdy to může mít fatální důsledky. Zkuste si k nepřesným slovům přiřadit přesnou pravděpodobnost v procentech a zjistěte, jak je vnímají ostatní."
+perex: "„<i>Asi</i> bude pršet.“ „Večer přijdu, ale <i>nejspíš</i> jen na jedno.“ K vyjádření pravděpodobnosti používáme slova, jejichž význam je jen pocitový - a tak si je každý může vyložit po svém. Někdy to může mít fatální důsledky. Zkuste si k nepřesným slovům přiřadit přesnou pravděpodobnost v procentech a zjistěte, jak je vnímají ostatní."
 published: "17. července 2018"
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/checklist-2077020_19_180717-204417_zlo.jpg?itok=8mJp570U
 coverimg_note: "Ilustrační foto (Tero Vesalainen, <a href='https://pixabay.com/en/checklist-check-list-marker-2077020/'>Pixabay</a>, CC0)"
