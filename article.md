@@ -1,21 +1,32 @@
-title: "Ço znamená 'možná' nebo 'pravděpodobně'? Řekněte nám to"
+title: "Co znamená 'možná' nebo 'pravděpodobně'? Řekněte nám to"
 perex: "Inspirujeme se americým průzkumem, který zjišťoval, jak pravděpodobná jsou slova. Zkuste si to s námi!"
 published: "17. července 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
 styles: ["https://interaktivni.rozhlas.cz/data/dhondtator/jquery-ui.min.css"]
-libraries: [jquery, "https://interaktivni.rozhlas.cz/data/dhondtator/jquery-ui.min.js", "https://code.highcharts.com/highcharts.js"] #jquery, d3, d3v5, d3csv, highcharts, datatables
-options: [noheader] #wide, noheader (, nopic)
+libraries: [jquery, "https://interaktivni.rozhlas.cz/data/dhondtator/jquery-ui.min.js", "https://code.highcharts.com/highcharts.js", "https://data.irozhlas.cz/prob-tip/probtip.js"] #jquery, d3, d3v5, d3csv, highcharts, datatables
+options: [noheader, nopic] #wide, noheader (, nopic)
 ---
+<!--
+Když říkal Andrej Babiš, že Malá by měla asi odstoupit, znamenalo to pro něj něco jiného než pro Malou. Malá to pochopila až poměrně pozdě. Není to u Babiše poprvé.
 
-asi, snad, nejspíš, jistě, určitě, možná, pravděpodobně, každopádně, rozhodně, spíše
 
+Babiš: Pokud Malá v diplomových pracích opisovala, měla by asi odstoupit
+https://zpravy.idnes.cz/andrej-babis-tatana-mala-ano-diplomova-prace-plagiatorstvi-pa3-/domaci.aspx?c=A180707_184854_domaci_amu
+
+Stejně tak 
+
+Tyhlety příklady ukazují, jak moc máme problém s kvantifikátory jako "asi", "možná" nebo "určitě", takzvané modální částice. Každý si pod nimi představí nějakou jinou pravděpobobnost. My jsme se rozhodli zjistit, jakou přesně.
+
+https://hbr.org/2018/07/if-you-say-something-is-likely-how-likely-do-people-think-it-is
+
+Vycházíme přitom z amerického výzkumu, který řešil to stejné. Na základě průzkumu mezi 1700 respondenty vyšlo to a to.
+
+Vy se teď můžete zkusit českou verzi. Vybrali jsme XY slov, které vyjadřují pravděpodobnost. V článku jsou náhodně seřazeny. Poté, co kliknete na Odeslat, se vám zobrazí, jak hlasovali ostatní.
+-->
 <div id="quiz">
 </div>
+<!--
+Je to důležité proto a proto. (něco z toho článku)
+-->
 
-## Data na prodej
-I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.
-
-Mobilní operátor má [zákonnou povinnost](https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3) takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.
-
-Operátoři ale obdobné informace mohou anonymizovat (tedy zbavit identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.

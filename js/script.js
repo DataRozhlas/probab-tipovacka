@@ -26,30 +26,60 @@
     }
 }(jQuery);
 
+// mixer otazek
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+}
+
 $(function () {
     var stamp = Date.now() + Math.floor(Math.random() * 10000);
-
     // otazky
-    var headlines = { "q1": "Cizinci mezi vězni", "q2": "Potraty", "q3": "Chytré telefony", "q4": "Adopce homosexuálními páry", "q5": "Sociální dávky", "q6": "Alkohol", "q7": "Romové", "q8": "Životní spokojenost" };
-    var questions = { "q1": "Kolik procent odsouzených v českých věznicích jsou cizinci?",
-        "q2": "Kolik umělých přerušení těhotenství v Česku připadá na 100 živě narozených dětí?",
-        "q3": "Kolik procent Čechů starších 16 let používá internet v mobilu?",
-        "q4": "Kolik Čechů ze sta si myslí, že homosexuální páry by měly mít právo adoptovat děti z dětských domovů?",
-        "q5": "Jaký podíl státního rozpočtu se loni vydal na sociální dávky - podporu v nezaměstnanosti a pomoc v hmotné nouzi?",
-        "q6": "Kolik procent Čechů ve věku 15-64 let pije alkohol tolik, že se nachází v kategorii rizikové konzumace?",
-        "q7": "Jak velký podíl Čechů hodnotí negativně soužití s Romy?",
-        "q8": "Kolik procent Čechů je spokojených se svým životem?"
+    var questions = { "q1": "jistě",
+     "q2": "každopádně",
+     "q3": "určitě",
+     "q4": "rozhodně",
+     "q5": "nejspíš",
+     "q6": "snad",
+     "q7": "pravděpodobně",
+     "q8": "asi",
+     "q9": "možná",
+     "q10": "spíše",
+     "q11": "vždy",
+     "q12": "často",
+     "q13": "občas",
+     "q14": "vzácně",
+     "q15": "nikdy" };
+    var divs = [];
+
+    for (var i in questions) {
+        i = i.slice(1);
+        var div = $("<div class='qdiv" + i + "'>")
+        $(div).append('<h3>$QNB. ' + questions["q" + i] + '</h3>');
+        $(div).append('<div id="q' + i + '" class="slider"><div id="q' + i + 'handle" class="ui-slider-handle handle"></div></div>');
+        $(div).append('<div class="button disabled" id="buttonq' + i + '">Potvrdit</div>');
+        $(div).append('<div id="chartq' + i + '" style="width: 100%; margin: 0 auto"></div>');
+        $(div).append('<div class="result hiddenresult" id="resq' + i + '"></div>');
+        divs.push(div);
     };
 
-    for (var i = 1; i <= 8; i++) {
-        $("#quiz").append('<h3>' + i + '. ' + headlines["q" + i] + '</h3>');
-        $("#quiz").append('<div>' + questions["q" + i] + '</b>');
-        $("#quiz").append('<div id="q' + i + '" class="slider"><div id="q' + i + 'handle" class="ui-slider-handle handle"></div></div>');
-        $("#quiz").append('<div class="button disabled" id="buttonq' + i + '">Potvrdit</div>');
-        $("#quiz").append('<div id="chartq' + i + '" style="width: 100%; margin: 0 auto"></div>');
-        $("#quiz").append('<div class="result" id="resq' + i + '"></div>');
+    shuffle(divs);
 
-        $("#q" + i).slider({
+    var nrcount = 1;
+    for (div in divs) {
+        divs[div][0].innerHTML = divs[div][0].innerHTML.replace("$QNB",nrcount);
+        nrcount = nrcount + 1;
+        $("#quiz").append(divs[div]);
+    }
+
+    for (div in divs) {
+        $("#q" + (parseInt(div)+1)).slider({
             min: 0,
             max: 100,
             step: 1,
@@ -62,7 +92,7 @@ $(function () {
                 $(this).next().removeClass("disabled");
             }
         });
-    };
+    }
 
     $(".button").click(function () {
         if (!$(this).hasClass("disabled")) {
@@ -75,11 +105,12 @@ $(function () {
                 type: "POST",
                 crossDomain: !0,
                 contentType: "application/json",
-                data: JSON.stringify({ "qid": qid, "val": val }),
+                data: JSON.stringify({ "uid": stamp, "qid": qid, "val": val }),
                 dataType: "json",
                 success: function success(response) {
-                    delete response.qid;
-                    console.log(response);
+                    var response = hist[qid];
+                    response[val] += 1;
+
                     $("#" + qid).css("display", "none");
                     $("#button" + qid).css("display", "none");
                     
@@ -100,9 +131,6 @@ $(function () {
                         };
                     };
 
-                    var data = Object.keys(response).map(function(e) {
-                      return response[e]
-                    })
                     $("#chart" + qid).animate({ height: "200px" });
                     var chart = Highcharts.chart('chart' + qid, {
                         chart: {
@@ -154,10 +182,11 @@ $(function () {
                         },
                         series: [{
                             name: 'otázka xy',
-                            data: data
+                            data: response
                         }]
                     });
                     var pct = " %";
+                    $("#    res" + qid).removeClass("hiddenresult")
                     $("#res" + qid).html("Váš tip byl <b>" + val + pct + "</b>. Čtenáři v průměru tipují <b>" + Math.round(avg) + pct + "</b>.");
                 }
             });

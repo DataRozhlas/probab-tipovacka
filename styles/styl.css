@@ -27,8 +27,8 @@ hr {
 .button {
     margin: 0 auto;
     width: 40%;
-    line-height: 2.2em;
-    height: 3em;
+    line-height: 1.4em;
+    height: 2em;
     background-color: #e7e7e7; 
     color: black;
     border: none;
@@ -62,4 +62,8 @@ hr {
 
 .result {
   margin-bottom: 80px;
+}
+
+.hiddenresult {
+  display: none;
 }
