@@ -1,5 +1,9 @@
 title: "Asi, pravděpodobně, možná. Co tato slova znamenají pro politiky a co pro vás?"
+<<<<<<< HEAD
 perex: "„<i>Asi</i> bude pršet.“ „Večer přijdu, ale <i>nejspíš</i> jen na jedno.“ Každý z nás používá k vyjádření pravděpodobnosti slova, jejichž význam je jen pocitový - a každý ho může pochopit po svém. Zkuste si k nim přiřadit konkrétní pravděpobnost v procentech a zjistěte, jak přesně je vnímají ostatní."
+=======
+perex: "„<i>Asi</i> bude pršet.“ „Večer přijdu, ale <i>nejspíš</i> jen na jedno.“ Každý z nás používá k vyjádření pravděpodobnosti slova, jejichž význam je jen pocitový - a tak si je každý může vyložit po svém. Někdy to může mít fatální důsledky. Zkuste si k nepřesným slovům přiřadit přesné pravděpobnost v procentech a zjistěte, jak je vnímají ostatní."
+>>>>>>> 79a08b56bf642a097d7e5a248e5713ee8f4bf64c
 published: "17. července 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
@@ -24,10 +28,16 @@ Jak se liší vnímání "pravděpodobnostních slov" v češtině? Vybrali jsme
 V našem zjišťování vycházíme z [podobného průzkumu](https://hbr.org/2018/07/if-you-say-something-is-likely-how-likely-do-people-think-it-is
 ), který proběhl ve Spojených státech. Průzkum provedený mezi 1700 respondenty ukázal, že hodnoty přisuzované slovům a frázím jako "likely" (pravděpodobně) nebo "not often" (nepříliš často) se liší i o desítky procent.
 
+## Proč CIA používá radši přesná čísla
 Nejistota a vzájemné nepochopení mezi uživateli těchto slov mohou vést i k zásadním nedorozuměním. V roce 1951 americká CIA vydala dokument, že sovětský útok na Jugoslávii je "vážná možnost". Když se v oddělení odhadů, které dokument zpracovalo, jeho nastupující šéf Sherman Kent zeptal, co konkrétně "vážná možnost" znamená, dozvěděl se hodnoty od dvaceti do osmdesáti procent. Kent, který spojenímu "vážná možnost" přisuzoval pravděpodobnost 65 procent, rozhodl, že oddělení bude další odhady vyjadřovat výhradně v číslech.
 
-Vnímání pravděpodobnosti se ve své knize [Superprognózy](https://www.knihovny.cz/Record/nkp.NKC01-002835789) věnuje i profesor psychologie na Pensylvánské univerzitě Philip Tetlock. Vágní formulace a špatná práce s pravděpodobností podle něj postrčily Ameriku do války s Irákem. Podle Tetlocka pak neurčité výrazy užívají lidé ve chvíli, kdy se chtějí zbavit odpovědnosti, a platí to jak u politiků, tak u manažerů nebo [novinářů](http://journals.sagepub.com/doi/abs/10.1177/0963662515606681?journalCode=pusa).
+Vnímání pravděpodobnosti se ve své knize [Superprognózy](https://www.knihovny.cz/Record/nkp.NKC01-002835789) věnuje i profesor psychologie na Pensylvánské univerzitě Philip Tetlock. Vágní formulace a špatná práce s pravděpodobností podle něj postrčily Ameriku do války s Irákem – pravděpodobnost výskytu zbraní hromadného ničení si každý vyložil tak, jak se mu to hodilo.
+
+## Zbavit se odpovědnosti
+Podle Tetlocka neurčité výrazy užívají lidé ve chvíli, kdy se chtějí zbavit odpovědnosti, a platí to jak u politiků, tak u manažerů nebo [novinářů](http://journals.sagepub.com/doi/abs/10.1177/0963662515606681?journalCode=pusa).
 
 I když každý vnímá pravděpodobnost ukrytou za slovy „možná“ nebo „nejspíš“ trochu jinak, existují společné trendy: Podle analytiků diskusního serveru Quora jsou ženy [opatrnější](http://journals.sagepub.com/doi/abs/10.1177/0361684310392728) při vyjadřování názoru a volí méně jednoznačné formulace než muži. Výrazy jako „možná“ nebo „věřím, že“ se v odpovědích autorek vyskytovaly o 13 % častěji než v příspěvcích autorů.
 
-Míra nejistoty spojená s určitými slovy také závisí na kontextu, ve kterém se výraz nachází. I proto mají některé organizace přesně dané výrazy a k nim [navázaná procentuální rozpětí pravděpodobnosti](https://www.digitalshadows.com/blog-and-research/uncertainties-in-the-language-of-uncertainty-and-why-we-need-to-talk-about-it/), z neurčitých slov se tak stávají svého druhu [termíny](https://cs.wikipedia.org/wiki/Term%C3%ADn). Podobná situace je i v právu, při čtení zákonů mají výrazy „mohl by“ nebo „je možné“ konkrétní význam, často daný tím, jak takový výraz soudy vyložily v minulosti. 
+Míra nejistoty spojená s určitými slovy také závisí na kontextu, ve kterém se výraz nachází. I proto mají některé organizace přesně dané výrazy a k nim [navázaná procentuální rozpětí pravděpodobnosti](https://www.digitalshadows.com/blog-and-research/uncertainties-in-the-language-of-uncertainty-and-why-we-need-to-talk-about-it/), z neurčitých slov se tak stávají svého druhu [termíny](https://cs.wikipedia.org/wiki/Term%C3%ADn).
+
+Podobná situace je i v právu, při čtení zákonů mají výrazy „mohl by“ nebo „je možné“ konkrétní význam, často daný tím, jak takový výraz soudy vyložily v minulosti.
