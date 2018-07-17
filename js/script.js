@@ -98,7 +98,7 @@ $(function () {
         if (!$(this).hasClass("disabled")) {
 
             var qid = $(this).prev().attr('id');
-            var val = $("#" + qid + "handle").text();
+            var val = $("#" + qid + "handle").text().slice(0,-2);
             $(this).text("Čekejte...");
             $.ajax({
                 url: "https://lvehmkssr1.execute-api.eu-central-1.amazonaws.com/prod",
@@ -186,7 +186,7 @@ $(function () {
                         }]
                     });
                     var pct = " %";
-                    $("#    res" + qid).removeClass("hiddenresult")
+                    $("#res" + qid).removeClass("hiddenresult")
                     $("#res" + qid).html("Váš tip byl <b>" + val + pct + "</b>. Čtenáři v průměru tipují <b>" + Math.round(avg) + pct + "</b>.");
                 }
             });
