@@ -61,7 +61,7 @@ $(function () {
     for (var i in questions) {
         i = i.slice(1);
         var div = $("<div class='qdiv" + i + "'>")
-        $(div).append('<h3>$QNB. ' + questions["q" + i] + '</h3>');
+        $(div).append('<h3>' + questions["q" + i] + '</h3>');
         $(div).append('<div id="q' + i + '" class="slider"><div id="q' + i + 'handle" class="ui-slider-handle handle"></div></div>');
         $(div).append('<div class="button" id="buttonq' + i + '">Potvrdit</div>');
         $(div).append('<div id="chartq' + i + '" style="width: 100%; margin: 0 auto"></div>');
@@ -71,10 +71,7 @@ $(function () {
 
     shuffle(divs);
 
-    var nrcount = 1;
     for (div in divs) {
-        divs[div][0].innerHTML = divs[div][0].innerHTML.replace("$QNB",nrcount);
-        nrcount = nrcount + 1;
         $("#quiz").append(divs[div]);
     }
 

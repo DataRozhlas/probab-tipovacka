@@ -1,5 +1,5 @@
 title: "Asi, pravděpodobně, možná. Co tato slova znamenají pro politiky a co pro vás?"
-perex: "„Asi bude pršet.“ „Večer přijdu, ale nejspíš jen na jedno.“ Každý z nás používá k vyjádření pravděpodobnosti slova, jejichž význam je jen pocitový - a může se v závislosti na mluvčím i výrazně lišit. Zkuste si k nim přiřadit konkrétní pravděpobnost v procentech a zjistěte, jak přesně je vnímají ostatní."
+perex: "„<i>Asi</i> bude pršet.“ „Večer přijdu, ale <i>nejspíš</i> jen na jedno.“ Každý z nás používá k vyjádření pravděpodobnosti slova, jejichž význam je jen pocitový - a může se v závislosti na mluvčím i výrazně lišit. Zkuste si k nim přiřadit konkrétní pravděpobnost v procentech a zjistěte, jak přesně je vnímají ostatní."
 published: "17. července 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
@@ -8,11 +8,11 @@ libraries: [jquery, "https://interaktivni.rozhlas.cz/data/dhondtator/jquery-ui.m
 options: [noheader, nopic] #wide, noheader (, nopic)
 ---
 
-"Pokud se prokáže, že opisovala, měla by odstoupit?" "Pokud to tak je, tak asi ano." [Slova](https://www.irozhlas.cz/zpravy-domov/andrej-babis-vlada-tatana-mala-plagiatorstvi-diplomova-prace_1807071753_sam) předsedy vlády Andreje Babiše ze začátku července na adresu tehdejší ministryně spravedlnosti Taťány Malé výrazně ovlivnila její nedlouhé ministerské působení. Podezření, že opsala diplomovou práci, Malá zprvu odmítala. I když na tiskové konferenci [uvedla](https://www.irozhlas.cz/zpravy-domov/tiskova-konference-ministryne-mala_1807091534_mat), že "to asi trochu podcenila" a že se "v některých místech asi dopustila nějaké chyby", odstoupit odmítala. 
+"Pokud se prokáže, že opisovala, měla by odstoupit?" "Pokud to tak je, tak _asi_ ano." [Slova](https://www.irozhlas.cz/zpravy-domov/andrej-babis-vlada-tatana-mala-plagiatorstvi-diplomova-prace_1807071753_sam) předsedy vlády Andreje Babiše ze začátku července na adresu tehdejší ministryně spravedlnosti Taťány Malé výrazně ovlivnila její nedlouhé ministerské působení. Podezření, že opsala diplomovou práci, Malá zprvu odmítala. I když na tiskové konferenci [uvedla](https://www.irozhlas.cz/zpravy-domov/tiskova-konference-ministryne-mala_1807091534_mat), že "to _asi_ trochu podcenila" a že se "v některých místech _asi_ dopustila nějaké chyby", odstoupit odmítala. 
 
 Záhy se však ukázalo, že Babišovo "asi" ve skutečnosti znamená "stoprocentně". O několik hodin později už Malá oznamovala svou rezignaci, byť žádné pochybení neuznala.
 
-U Babiše to navíc není poprvé: Když kupoval mediální dům Mafra, napsal tehdy slavný tweet ["Zítra asi něco koupím"](https://twitter.com/andrejbabis/status/349189222000910336?lang=cs). Stejně jako v případě Malé znamenalo "asi" stoprocentní jistotu.
+U Babiše to navíc není poprvé: Když kupoval mediální dům Mafra, napsal tehdy slavný tweet ["Zítra _asi_ něco koupím"](https://twitter.com/andrejbabis/status/349189222000910336?lang=cs). Stejně jako v případě Malé znamenalo "asi" stoprocentní jistotu.
 
 Slova jako "asi", "možná", nebo "určitě", tedy takzvané modální částice, používáme v běžné řeči každý den. Dáváme jimi najevo přibližnou pravděpodobnost, aniž bychom ji vyjádřili v konkrétních číslech. Často je také používáme jako zlehčení příliš pádného prohlášení. Zatímco politolog Jiří Pehe ještě loni soudil, že Miloš Zeman prezidentem [nejspíš nebude](https://www.novinky.cz/komentare/438264-komentar-proc-zeman-nejspis-uz-nebude-prezidentem-jiri-pehe.html), kandidát v letošní prezidentské volbě Mirek Topolánek o několik měsíců později prohlásil, že Zeman bude [možná zvolen](https://echo24.cz/a/Stmdc/topolanek-zeman-bude-mozna-zvolen-ale-nebude-schopen-urad-vykonavat).
 
