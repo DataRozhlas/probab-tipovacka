@@ -85,10 +85,10 @@ $(function () {
             step: 1,
             value: 50,
             create: function create() {
-                $(this).children().text($(this).slider("value"));
+                $(this).children().text($(this).slider("value") + " %");
             },
             slide: function slide(event, ui) {
-                $(this).children().text(ui.value);
+                $(this).children().text(ui.value + " %");
                 $(this).next().removeClass("disabled");
             }
         });
