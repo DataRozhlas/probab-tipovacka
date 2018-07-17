@@ -1,9 +1,5 @@
 title: "Asi, pravděpodobně, možná. Co tato slova znamenají pro politiky a co pro vás?"
-<<<<<<< HEAD
-perex: "„<i>Asi</i> bude pršet.“ „Večer přijdu, ale <i>nejspíš</i> jen na jedno.“ Každý z nás používá k vyjádření pravděpodobnosti slova, jejichž význam je jen pocitový - a každý ho může pochopit po svém. Zkuste si k nim přiřadit konkrétní pravděpobnost v procentech a zjistěte, jak přesně je vnímají ostatní."
-=======
-perex: "„<i>Asi</i> bude pršet.“ „Večer přijdu, ale <i>nejspíš</i> jen na jedno.“ Každý z nás používá k vyjádření pravděpodobnosti slova, jejichž význam je jen pocitový - a tak si je každý může vyložit po svém. Někdy to může mít fatální důsledky. Zkuste si k nepřesným slovům přiřadit přesné pravděpobnost v procentech a zjistěte, jak je vnímají ostatní."
->>>>>>> 79a08b56bf642a097d7e5a248e5713ee8f4bf64c
+perex: "„<i>Asi</i> bude pršet.“ „Večer přijdu, ale <i>nejspíš</i> jen na jedno.“ Každý z nás používá k vyjádření pravděpodobnosti slova, jejichž význam je jen pocitový - a tak si je každý může vyložit po svém. Někdy to může mít fatální důsledky. Zkuste si k nepřesným slovům přiřadit přesnou pravděpodobnost v procentech a zjistěte, jak je vnímají ostatní."
 published: "17. července 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
