@@ -1,11 +1,11 @@
 title: "Asi, pravděpodobně, možná. Co tato slova znamenají pro politiky a co pro vás?"
 perex: "„<i>Asi</i> bude pršet.“ „Večer přijdu, ale <i>nejspíš</i> jen na jedno.“ Každý z nás používá k vyjádření pravděpodobnosti slova, jejichž význam je jen pocitový - a tak si je každý může vyložit po svém. Někdy to může mít fatální důsledky. Zkuste si k nepřesným slovům přiřadit přesnou pravděpodobnost v procentech a zjistěte, jak je vnímají ostatní."
 published: "17. července 2018"
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
-coverimg_note: "Foto <a href='#'>ČTK</a>"
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/checklist-2077020_19_180717-204417_zlo.jpg?itok=8mJp570U
+coverimg_note: "Ilustrační foto (Tero Vesalainen, <a href='https://pixabay.com/en/checklist-check-list-marker-2077020/'>Pixabay</a>, CC0)"
 styles: ["https://interaktivni.rozhlas.cz/data/dhondtator/jquery-ui.min.css"]
 libraries: [jquery, "https://interaktivni.rozhlas.cz/data/dhondtator/jquery-ui.min.js", "https://code.highcharts.com/highcharts.js", "https://data.irozhlas.cz/prob-tip/probtip.js"] #jquery, d3, d3v5, d3csv, highcharts, datatables
-options: [noheader, nopic] #wide, noheader (, nopic)
+options: [noheader] #wide, noheader (, nopic)
 ---
 
 „Pokud se prokáže, že opisovala, měla by odstoupit?“ „Pokud to tak je, tak _asi_ ano.“ [Slova](https://www.irozhlas.cz/zpravy-domov/andrej-babis-vlada-tatana-mala-plagiatorstvi-diplomova-prace_1807071753_sam) předsedy vlády Andreje Babiše ze začátku července na adresu tehdejší ministryně spravedlnosti Taťány Malé výrazně ovlivnila její nedlouhé ministerské působení. Podezření, že opsala diplomovou práci, Malá zprvu odmítala. I když na tiskové konferenci [uvedla](https://www.irozhlas.cz/zpravy-domov/tiskova-konference-ministryne-mala_1807091534_mat), že „to _asi_ trochu podcenila“ a že se „v některých místech _asi_ dopustila nějaké chyby“, odstoupit odmítala. 
