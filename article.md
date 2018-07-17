@@ -1,5 +1,5 @@
 title: "Co znamená 'možná' nebo 'pravděpodobně'? Řekněte nám to"
-perex: "Inspirujeme se americým průzkumem, který zjišťoval, jak pravděpodobná jsou slova. Zkuste si to s námi!"
+perex: "Zadejte na slajdítku, jakou pravděpodobnost v procentech pro vás vyjadřuje dané slovo."
 published: "17. července 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
